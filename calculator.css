@@ -1,117 +1,114 @@
 *{
-    border: 1px solid none !important;
-  }
+  border: 1px solid none !important;
+}
 
 /* Expressing large area-----------------------------*/
 .section-top {
-    padding: 1rem 1rem;
-    align-content: center;
-    text-align: center;  
-  }
+  padding: 1rem 1rem;
+  align-content: center;
+  text-align: center;  
+}
 
-  .calculator {
-    background-color: #dfd8d0;
-    position: relative;
-    width: 100%;
-    max-width: 460;
-    min-width: 430;
-    min-height: 570;
-    margin: 1rem auto;
-    padding: 0 auto;
-    box-sizing: border-box; 
-    border-radius: 15px;
-    box-shadow: 4px 7px 10px 1px rgba(0, 0, 0, 0.68), inset -1px -6px 12px 0.1px #89847e;
-  }
+.calculator {
+  background-color: #dfd8d0;
+  position: relative;
+  width: 100%;
+  max-width: 460;
+  min-width: 430;
+  min-height: 570;
+  margin: 1rem auto;
+  padding: 0 auto;
+  box-sizing: border-box; 
+  border-radius: 15px;
+  box-shadow: 4px 7px 10px 1px rgba(0, 0, 0, 0.68), inset -1px -6px 12px 0.1px #89847e;
+}
 
 .row {
-    width: 100%;
-    display:flex;
-    flex-wrap: wrap;
+  width: 100%;
+  display:flex;
+  flex-wrap: wrap;
 }
 
 .container {
-    position: relative;
-    width: 100%;
-    max-width: 430;
-    min-width: 430;
-    margin: 1px auto;
-    padding: 0 auto;
-    box-sizing: border-box; 
-  }
+  position: relative;
+  width: 100%;
+  max-width: 430;
+  min-width: 430;
+  margin: 1px auto;
+  padding: 0 auto;
+  box-sizing: border-box; 
+}
 
-  .cal-screen {
-    color: black;
-    background-color: white;
-    position: relative;
-    max-width: 450;
-    margin: 10px 15px;    
-    padding: 10px 10px;
-    min-height: 100px;
-    border-radius: 15px;
-  }
+.cal-screen {
+  color: black;
+  background-color: white;
+  position: relative;
+  max-width: 450;
+  margin: 10px 15px;    
+  padding: 10px 10px;
+  min-height: 100px;
+  border-radius: 15px;
+}
 
 /* Expressing title paragraph---------------------------*/
-  .title-description {
-    opacity: .8;
-    font-weight: 800;
-    font-size: 2rem;
-  }
+.title-description {
+  opacity: .8;
+  font-weight: 800;
+  font-size: 2rem;
+}
+
+/*button design ---------------------------------------*/
+.cal-btn {
+  color: #fff;
+  background-color: #4CAF50;
+  border-color: #4CAF50;
+  width: 100;
+  padding: 2px, 2px;    
+  margin: 1px;
+  font-size: 13px; 
+  cursor: pointer;
+  font-weight: 500;
+  font-size: 3rem;
+}
 
  /*button design ---------------------------------------*/
-  .cal-btn {
-    color: #fff;
-    background-color: #4CAF50;
-    border-color: #4CAF50;
-    width: 100;
-    padding: 2px, 2px;    
-    margin: 1px;
-    font-size: 13px; 
-    cursor: pointer;
-    font-weight: 500;
-    font-size: 3rem;
+ .cal-btn2 {
+  color: #fff;
+  background-color: #0275d8;
+  border-color: #0275d8;
+  width: 100;
+  padding: 2px, 2px;
+  margin: 1px;
+  font-size: 13px; 
+  cursor: pointer;
+  font-weight: 500;
+  font-size: 3rem;
+}
+
+  /*button design ---------------------------------------*/
+  .cal-btn3 {
+      color: #fff;
+      background-color: #e90d18;
+      border-color: #e90d18;
+      width: 100;
+      padding: 2px 2px;
+      margin: 1px;
+      font-size: 13px; 
+      cursor: pointer;
+      font-weight: 500;
+      font-size: 3rem;
   }
 
-   /*button design ---------------------------------------*/
-   .cal-btn2 {
-    color: #fff;
-    background-color: #0275d8;
-    border-color: #0275d8;
-    width: 100;
-    padding: 2px, 2px;
-    margin: 1px;
-    font-size: 13px; 
-    cursor: pointer;
-    font-weight: 500;
-    font-size: 3rem;
+  /*button design ---------------------------------------*/
+  .cal-btn4 {
+      color: #fff;
+      background-color: #5e5a5a;
+      border-color: #5e5a5a;
+      width: 205;
+      padding: 2px 2px;
+      margin: 2px;
+      font-size: 13px; 
+      cursor: pointer;
+      font-weight: 500;
+      font-size: 3rem;
   }
-
-    /*button design ---------------------------------------*/
-    .cal-btn3 {
-        color: #fff;
-        background-color: #e90d18;
-        border-color: #e90d18;
-        width: 100;
-        padding: 2px 2px;
-        margin: 1px;
-        font-size: 13px; 
-        cursor: pointer;
-        font-weight: 500;
-        font-size: 3rem;
-    }
-
-    /*button design ---------------------------------------*/
-    .cal-btn4 {
-        color: #fff;
-        background-color: #5e5a5a;
-        border-color: #5e5a5a;
-        width: 205;
-        padding: 2px 2px;
-        margin: 2px;
-        font-size: 13px; 
-        cursor: pointer;
-        font-weight: 500;
-        font-size: 3rem;
-    }
-        
-
-    
