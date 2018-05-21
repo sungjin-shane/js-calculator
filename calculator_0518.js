@@ -1,4 +1,4 @@
-//Waiting for event by clicking
+//-Waiting for event by clicking
 document.addEventListener('click', evtClick);
 var preVal = '';
 var lastValArr = [];
